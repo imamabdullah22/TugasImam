@@ -9,7 +9,7 @@ class FirstSplash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xff01111),
+      backgroundColor: const Color.fromARGB(15, 209, 63, 63),
       body: Stack(
         children: [
           Padding(
